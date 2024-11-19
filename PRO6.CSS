@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(to right, #01022d, #000);
+
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+li:hover{
+    
+    border-bottom:white ;
+
+}
+.cont {
+    width: 90%; 
+    height: 880px; 
+    
+    background-image: linear-gradient(to right, #01022de5 ,#00000080)
+    ,url(../ph1.webp);
+    
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.cont:hover{
+    background-image: linear-gradient(to right, #01022de5 30%, transparent)
+    ,url(../ph1.webp);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 30px;
+}
+ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    
+}
+ul li{
+
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+   
+}
+div{
+    
+    margin-top: 100px;
+    border: 20px;
+    padding: 50px;
+    width: 40%;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    color: rgb(238, 233, 233);
+    width: 300px;
+}
+button{
+    margin: 30px;
+    font-size: 30px;
+}
